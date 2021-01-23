@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+html{
+	height: 100%;
+}
+
+body{
+	padding-top:10%;
+	background-image: linear-gradient(#ffe9d2,#ffd4d0, #fd4d4d);
+	background-repeat:no-repeat;
+	background-size: auto;
+	height: 100%;
+	font-family:sans-serif;
+}
+
+.logindiv{
+	border-radius: 15px;
+	background-color:#FFFFFF;
+	margin:auto;
+	width:500px;
+	padding: 10px 50px;
+}
+
+
+input{
+	margin-bottom:10px;
+	height:20px;
+	padding:10px;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
+td{
+	height:30px;
+	padding-right:40px;
+}
+
+h2{
+	text-align:center;
+	color:#400000;
+}
+
+h3{
+	color:#400000;
+}
+
+button {
+  background-color: #bf1b2c; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
