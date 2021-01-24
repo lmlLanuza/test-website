@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Sign in</title>
-		<link rel = "stylesheet" href = "login.css">
-	</head>
-	<body class = "body">
-		<h2>Login</h2>
-		<div class = "logindiv">
+<head>
+<title>Sign in</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body class="body">
+	<h2>Login</h2>
+	<div class="logindiv">
 		<h3>Sign in to Start your session</h3>
-			<form method = "POST">
-				<div class = "inputlogin">
-						<input type = "text" name = "email" placeholder = "Email" size = "70"/><br/>
-						<input type = "password" name = "password" placeholder = "Password" size = "70"/><br/>
-						<table>
-							<tr>
-								<td><label><input type = "checkbox" name = "remember" value = "remember" />Remember me</label></td>
-								<td><a href = "">Forgot Password?</a></td>
-								<td><button>Sign in</button></td>
-							</tr>
-						</table>
+		<form method="POST">
+			<div class="inputlogin">
+				<div class="wrap-input100">
+					<input class="input" type="text" name="email" placeholder="Email" size="40">
+					<span class="focus-input"></span>
 				</div>
-			</form>
-		</div>
-	</body>
+				<br/>
+				<div class="wrap-input100">
+					<input class="input" type="password" name="password" placeholder="Password" size="40">
+						<span class="focus-input"></span>
+				</div>
+				<br/>
+				<div class = "all-inputs">
+					<label><input type="checkbox" name="remember"
+						value="remember" /> Remember me
+					</label>
+					 <a href="">Forgot Password?</a>
+					<button class="button">Sign in</button>
+				</div>
+
+			</div>
+		</form>
+	</div>
+</body>
 </html>
